@@ -755,4 +755,14 @@ img {
     top: -340px;
   }
 }
+@media (max-device-width: 480px) and (orientation: portrait) {
+  .header {
+    background-attachment: scroll;
+  }
+}
+@media (max-device-width: 480px) and (orientation: landscape) {
+  .header {
+    background-attachment: scroll;
+  }
+}
 /* media styles end *//*# sourceMappingURL=style.css.map */
